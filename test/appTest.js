@@ -1,8 +1,14 @@
 const { assert } = require('chai')
-const app = require('../app')
+const { hello } = require('../app')
+
+let result = hello()
 
 describe('App', () => {
-  it('App should return hello', () => {
-    assert.equal(app(), 'hello')
+  it('hello should return hello', () => {
+    assert.equal(result, 'hello')
+  })
+  
+  it('hello should return type string', () => {
+    assert.typeOf(result, 'string')
   })
 })
