@@ -1,3 +1,4 @@
 module.exports = {
-  hello: () => 'hello'
+  hello: () => 'hello',
+  add: (a, b) => a + b
 }
