@@ -1,0 +1,24 @@
+{
+  "name": "mocha-chai-teaching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danivijay/mocha-chai-teaching.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danivijay/mocha-chai-teaching/issues"
+  },
+  "homepage": "https://github.com/danivijay/mocha-chai-teaching#readme",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.0.1"
+  }
+}
